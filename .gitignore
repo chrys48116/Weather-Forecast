@@ -1,0 +1,30 @@
+# Build artifacts
+/_build/
+erl_crash.dump
+
+# Dependencies
+/deps/
+
+# Mix artifacts
+/.elixir_ls/
+/.coverage/
+*.ez
+
+# Test and coverage tools
+cover/
+.excoveralls
+*.coverdata
+
+# IDEs/editors
+.idea/
+.vscode/
+*.sw?
+*.swo
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Optional: ignore local secrets or config
+config/*.secret.exs
